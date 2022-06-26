@@ -3,7 +3,7 @@ sudo su
 echo "script-security 2" >> /etc/openvpn/server/server.conf
 echo "client-connect /var/log/script.sh" >> /etc/openvpn/server/server.conf
 
-touch script.sh
+touch /var/log/script.sh
 
 #!/bin/sh
 user=$common_name
