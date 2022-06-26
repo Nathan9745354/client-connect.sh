@@ -20,4 +20,7 @@ chmod 777 /var/log/logfile.log
 
 systemctl restart openvpn-server@server.service
 
+
+systemctl status openvpn-server@server.service
+
 exit
