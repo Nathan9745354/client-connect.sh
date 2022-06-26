@@ -5,6 +5,8 @@ echo "client-connect /var/log/script.sh" >> /etc/openvpn/server/server.conf
 
 touch /var/log/script.sh
 
+nano /var/log/script.sh
+
 #!/bin/sh
 user=$common_name
 remote_ip=$trusted_ip
