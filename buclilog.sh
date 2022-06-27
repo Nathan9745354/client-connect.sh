@@ -7,14 +7,10 @@ touch /var/log/script.sh
 
 nano /var/log/script.sh
 
-#!/bin/sh
-user=$common_name
-remote_ip=$trusted_ip
-local_ip=$ifconfig_pool_remote_ip
 
-echo $(date) $user $remote_ip $local_ip >> /var/log/logfile.log 
+cd /var/log
 
-
+wget https://raw.githubusercontent.com/Nathan9745354/client-connect.sh/main/logfile.log
 
 echo " " >> /var/log/logfile.log
 
