@@ -1,4 +1,4 @@
-sudo su
+#!/bin/sh
 
 echo "script-security 2" >> /etc/openvpn/server/server.conf
 echo "client-connect /var/log/script.sh" >> /etc/openvpn/server/server.conf
